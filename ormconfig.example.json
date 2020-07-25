@@ -1,0 +1,17 @@
+{
+  "type": "db_server",
+  "host": "localhost",
+  "port": 5432,
+  "username": "username",
+  "password": "password",
+  "database": "database",
+  "entities": [
+    "./src/models/*.ts"
+  ],
+  "migrations": [
+    "./src/database/migrations/*.ts"
+  ],
+  "cli": {
+    "migrationsDir": "./src/database/migrations/"
+  }
+}
